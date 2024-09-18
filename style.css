@@ -1,0 +1,25 @@
+#pb-container {
+	border: thin solid black;
+	border-radius: 0.5rem;
+	width: 40rem;
+	height: 3rem;
+}
+
+#pb-content {
+	height: 100%;
+	width: 0%;
+	background: linear-gradient(to left, red, white);
+	border-radius: 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: medium;
+	color: white;
+}
+
+#progress-section {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+}
